@@ -4,8 +4,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 ---
 
-|  | Genesis | Clone 1 | Clone 2 | Clone 3 |
-|---|---|---|---|---|
-| Website | [website](https://github.com/orbis-geonet/website) | | | |
-| iPhone App | [ios-app](https://github.com/orbis-geonet/ios-app) | | | |
-| Android App | [android-app](https://github.com/orbis-geonet/android-app) | | | |
+|  | Website | iPhone App | Android App |
+|---|---|---|---|
+| Genesis | [website](https://github.com/orbis-geonet/website) | [ios-app](https://github.com/orbis-geonet/ios-app) | [android-app](https://github.com/orbis-geonet/android-app) |
+| Clone 1 | | | |
+| Clone 2 | | | |
+| Clone 3 | | | |
