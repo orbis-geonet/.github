@@ -27,6 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 | [backend](https://github.com/orbis-geonet/backend) | Ut enim ad minim veniam, quis nostrud exercitation ullamco. |
 | [dashboard](https://github.com/orbis-geonet/dashboard) | Duis aute irure dolor in reprehenderit in voluptate velit. |
 | [polygon-creator](https://github.com/orbis-geonet/polygon-creator) | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet. |
+| [blockchain-integration](https://github.com/orbis-geonet/blockchain-integration) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 ## Research
 
