@@ -46,6 +46,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 | Repository | Description |
 |---|---|
-| [email-marketing](https://github.com/orbis-geonet/email-marketing) | Excepteur sint occaecat cupidatat non proident. |
-| [whatsapp-marketing](https://github.com/orbis-geonet/whatsapp-marketing) | Sunt in culpa qui officia deserunt mollit anim id est laborum. |
-| [phone-farm-marketing](https://github.com/orbis-geonet/phone-farm-marketing) | Nemo enim ipsam voluptatem quia voluptas sit aspernatur. |
+| [email-marketing-dashboard](https://github.com/orbis-geonet/email-marketing-dashboard) | Email marketing software dashboard. |
+| [instant-messaging-marketing](https://github.com/orbis-geonet/instant-messaging-marketing) | Instant messaging marketing. |
+| [short-form-video-marketing-pipeline](https://github.com/orbis-geonet/short-form-video-marketing-pipeline) | Social media short-form video marketing pipeline. |
