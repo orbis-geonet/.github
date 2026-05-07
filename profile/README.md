@@ -13,14 +13,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 ---
 
-## Front End
+## Front End — Mobile
 
 | Repository | Description |
 |---|---|
 | [ios-app](https://github.com/orbis-geonet/ios-app) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 | [android-app](https://github.com/orbis-geonet/android-app) | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+
+## Front End — Web
+
+| Repository | Description |
+|---|---|
 | [website](https://github.com/orbis-geonet/website) | Quis autem vel eum iure reprehenderit qui in ea voluptate velit. |
-| [dashboard](https://github.com/orbis-geonet/dashboard) | Duis aute irure dolor in reprehenderit in voluptate velit. |
+| [dashboard](https://github.com/orbis-geonet/dashboard) | User administration dashboard. |
+| [dynamic-site-map](https://github.com/orbis-geonet/dynamic-site-map) | Orbis dynamic site map. |
 
 ## Back End
 
