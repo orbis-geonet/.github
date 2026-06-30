@@ -31,21 +31,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 | Repository | Description |
 |---|---|
 | [website](https://github.com/orbis-geonet/website) | Quis autem vel eum iure reprehenderit qui in ea voluptate velit. |
-| [dashboard](https://github.com/orbis-geonet/dashboard) | User administration dashboard. |
+| [user-management-dashboard](https://github.com/orbis-geonet/user-management-dashboard) | User management dashboard. |
 | [dynamic-site-map](https://github.com/orbis-geonet/dynamic-site-map) | Orbis dynamic site map. |
 
 ## Back End
 
 | Repository | Description |
 |---|---|
-| [backend](https://github.com/orbis-geonet/backend) | Ut enim ad minim veniam, quis nostrud exercitation ullamco. |
+| [backend](https://github.com/orbis-geonet/backend) | Back-end services and blockchain integration (node and Java workers). |
 | [polygon-creator](https://github.com/orbis-geonet/polygon-creator) | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet. |
-| [blockchain-integration](https://github.com/orbis-geonet/blockchain-integration) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
 
 ## Marketing
 
 | Repository | Description |
 |---|---|
 | [email-marketing-dashboard](https://github.com/orbis-geonet/email-marketing-dashboard) | Email marketing software dashboard. |
-| [instant-messaging-marketing](https://github.com/orbis-geonet/instant-messaging-marketing) | Instant messaging marketing. |
-| [short-form-video-marketing-pipeline](https://github.com/orbis-geonet/short-form-video-marketing-pipeline) | Social media short-form video marketing pipeline. |
+| [marketing](https://github.com/orbis-geonet/marketing) | Social media short-form video marketing pipeline. |
