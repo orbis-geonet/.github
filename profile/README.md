@@ -6,7 +6,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 |  | Website | iPhone App | Android App |
 |---|---|---|---|
-| Genesis | [website](https://github.com/orbis-geonet/website) | [ios-app](https://github.com/orbis-geonet/ios-app) | [android-app](https://github.com/orbis-geonet/android-app) |
+| Genesis | [orbis.social](https://orbis.social) | [App Store](https://apps.apple.com/ca/app/orbis-digital-tribes/id1453025529) | [Google Play](https://play.google.com/store/apps/details?id=com.orbis.orbis) |
 | Clone 1 | | | |
 | Clone 2 | | | |
 | Clone 3 | | | |
