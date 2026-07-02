@@ -1,4 +1,4 @@
-# Orbis GeoNet
+# Orbis Geographical Internet (GeoNet)
 
 **Orbis** ([orbis.social](https://orbis.social)) is a geo-social network in which communities collaboratively map their cultural identity over physical space: tribal territories are amorphous polygons computed in real time from collective territorial claims. It is an applied computer-science research program in geospatial computing and decentralized cultural infrastructure, funded by [FAPESP PIPE I and II](https://bv.fapesp.br/en/auxilios/111929/orbis-geolocation-social-network-and-collaborative-urban-mapping/).
 
