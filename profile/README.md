@@ -75,7 +75,7 @@ Crucially, a clone **only pays for the content its own users actually open** —
 
 | | Name | Provenance | Website | iPhone App | Android App | Contact |
 |---|---|---|---|---|---|---|
-| Genesis | Orbis - Digital Tribe | Brazil | [orbis.social](https://orbis.social) | [App Store](https://apps.apple.com/ca/app/orbis-digital-tribes/id1453025529) | [Google Play](https://play.google.com/store/apps/details?id=com.orbis.orbis) | [info@orbis.social](mailto:info@orbis.social) |
+| Genesis | Orbis Digital Tribes | Brazil | [orbis.social](https://orbis.social) | [App Store](https://apps.apple.com/ca/app/orbis-digital-tribes/id1453025529) | [Google Play](https://play.google.com/store/apps/details?id=com.orbis.orbis) | [info@orbis.social](mailto:info@orbis.social) |
 | Clone 1 | | | | | | |
 | Clone 2 | | | | | | |
 | Clone 3 | | | | | | |
