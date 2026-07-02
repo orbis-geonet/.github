@@ -11,11 +11,9 @@ Orbis is an incipient prototype for the territorialization of a network society 
 The [territory-fusion research](https://github.com/orbis-geonet/research) is what makes this concrete. Each community stakes claims to real-world places, and thousands of claims are fused in real time into organic tribal polygons — tangent bridges connect nearby claims, collisions between rival groups reject a merge, and the hole-preserving union keeps interior gaps intact. A territory is addressed by the claims it contains, and fusion and split are first-class idempotent operations. These are the cartographic primitives of a *geographical* internet: where the internet addresses information by IP, a GeoNet addresses **ground by claim** — a community draws, holds, and federates territory directly on the map, with no central cadastre. In the [orbis-geonet protocol](https://orbis.social/network), those territories become permissionlessly federable: proofs and geo-tagged pointers live in ZK-compressed Merkle trees on Solana, discovery is by location-prefix, and independent clones sync ground-to-ground in a [native token](https://orbis.social/exchange) — the geographical layer of the internet, run by its inhabitants.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-1.png" height="440" alt="Tribe territories live on the map" />
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-2.png" height="440" alt="Nearby tribes and their claimed regions" />
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-3.png" height="440" alt="A single tribe's claimed territory" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-1.png" width="33%" alt="Tribe territories live on the map" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-2.png" width="33%" alt="Nearby tribes and their claimed regions" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-3.png" width="33%" alt="A single tribe's claimed territory" />
 </p>
 <p align="center">
   <a href="https://orbis.social/r/research/"><img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-simulation.png" width="100%" alt="The live territory-fusion simulation — tribes fusing claims into amorphous territories in real time" /></a>
