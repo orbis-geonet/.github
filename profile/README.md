@@ -46,6 +46,19 @@ graph TD
 
 <p align="center"><em>Assumes ~50 actions per active user / month, batched at ~200 actions per on-chain write (per the <code>sync_collection_batch</code> contract). Fees from the <a href="https://orbis.social/network">network dashboard</a> at 1 $ORBIS = $1.00 and SOL ≈ $80. A million-user clone costs about <strong>$125 / month — roughly $0.000125 per active user</strong>. Cost is never a barrier to running a clone.</em></p>
 
+**Hosting is paid — so the network sustains itself.** Each clone stores its own users' posts and media and serves them to the rest of the federation on demand. When one clone's users read data or media hosted by another, the requesting clone pays the host in **$ORBIS** through an on-chain **streaming escrow**: the requester locks $ORBIS naming the host (`init_streaming_escrow`), and the host draws payment **metered per MB served** (`claim_streaming_payment` — `data_size × fee_per_mb` at **0.0001 $ORBIS/MB**), every claim signed by the requester so no one overpays. The host keeps **99%**, **1%** funds the protocol treasury, and only hosts with an on-chain **trust score ≥ 500** can be paid. Hosting is therefore a revenue stream, not a cost — which is what keeps information and media available across the GeoNet with no central CDN.
+
+*Example — what a host clone earns for serving media (at 0.0001 $ORBIS/MB, 1 $ORBIS = $1.00):*
+
+| Media served / month | Requesters pay | Host keeps (99%) | Protocol (1%) |
+|---|---|---|---|
+| 100 GB | ~10.2 $ORBIS · ~$10 | ~$10.14 | ~$0.10 |
+| 1 TB | ~105 $ORBIS · ~$105 | ~$103.80 | ~$1.05 |
+| 10 TB | ~1,049 $ORBIS · ~$1,049 | ~$1,038 | ~$10.49 |
+| 100 TB | ~10,486 $ORBIS · ~$10,486 | ~$10,381 | ~$104.86 |
+
+<p align="center"><em>Metered clone-to-clone payments per the <code>claim_streaming_payment</code> contract. Serving the federation earns $ORBIS, so hosting content and media pays for itself.</em></p>
+
 ---
 
 |  | Website | iPhone App | Android App |
