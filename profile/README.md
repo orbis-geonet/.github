@@ -18,14 +18,10 @@ The [territory-fusion research](https://github.com/orbis-geonet/research) is wha
   <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-3.png" height="440" alt="A single tribe's claimed territory" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-connect.png" height="330" alt="Research: nearby claims connected by tangent bridges" />
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-collision.png" height="330" alt="Research: a collision between rival tribes rejects a merge" />
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-polygons.png" height="330" alt="Research: claims fused into amorphous polygons" />
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-territories.png" height="330" alt="Research: tribal territories with computed centers" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-connect.png" height="175" alt="Research: nearby claims connected by tangent bridges" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-collision.png" height="175" alt="Research: a collision between rival tribes rejects a merge" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-polygons.png" height="175" alt="Research: claims fused into amorphous polygons" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-territories.png" height="175" alt="Research: tribal territories with computed centers" />
 </p>
 
 <p align="center"><em>Top — tribal territories live on the map in the Orbis app. Bottom — the <a href="https://github.com/orbis-geonet/research">territory-fusion research</a> behind them: nearby claims connect by tangent bridges, a collision between rival tribes rejects a merge, the union fuses them into amorphous polygons, and each territory gains a computed center.</em></p>
