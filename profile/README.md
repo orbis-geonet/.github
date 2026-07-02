@@ -73,12 +73,14 @@ Crucially, a clone **only pays for the content its own users actually open** —
 
 ---
 
-|  | Website | iPhone App | Android App |
-|---|---|---|---|
-| Genesis | [orbis.social](https://orbis.social) | [App Store](https://apps.apple.com/ca/app/orbis-digital-tribes/id1453025529) | [Google Play](https://play.google.com/store/apps/details?id=com.orbis.orbis) |
-| Clone 1 | | | |
-| Clone 2 | | | |
-| Clone 3 | | | |
+| | Name | Provenance | Website | iPhone App | Android App | Contact |
+|---|---|---|---|---|---|---|
+| Genesis | Orbis - Digital Tribe | Brazil | [orbis.social](https://orbis.social) | [App Store](https://apps.apple.com/ca/app/orbis-digital-tribes/id1453025529) | [Google Play](https://play.google.com/store/apps/details?id=com.orbis.orbis) | [info@orbis.social](mailto:info@orbis.social) |
+| Clone 1 | | | | | | |
+| Clone 2 | | | | | | |
+| Clone 3 | | | | | | |
+
+<p align="center"><em>Running your own Orbis clone? To have it listed in this registry, open a pull request on <a href="https://github.com/orbis-geonet">orbis-geonet</a> or email <a href="mailto:info@geonetinternet.com">info@geonetinternet.com</a>.</em></p>
 
 ---
 
