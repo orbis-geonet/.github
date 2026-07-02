@@ -18,13 +18,10 @@ The [territory-fusion research](https://github.com/orbis-geonet/research) is wha
   <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-3.png" height="440" alt="A single tribe's claimed territory" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-connect.png" height="175" alt="Research: nearby claims connected by tangent bridges" />
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-collision.png" height="175" alt="Research: a collision between rival tribes rejects a merge" />
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-polygons.png" height="175" alt="Research: claims fused into amorphous polygons" />
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-territories.png" height="175" alt="Research: tribal territories with computed centers" />
+  <a href="https://orbis.social/r/research/"><img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-simulation.png" width="100%" alt="The live territory-fusion simulation — tribes fusing claims into amorphous territories in real time" /></a>
 </p>
 
-<p align="center"><em>Top — tribal territories live on the map in the Orbis app. Bottom — the <a href="https://github.com/orbis-geonet/research">territory-fusion research</a> behind them: nearby claims connect by tangent bridges, a collision between rival tribes rejects a merge, the union fuses them into amorphous polygons, and each territory gains a computed center.</em></p>
+<p align="center"><em>Top — tribal territories live on the map in the Orbis app. Bottom — the <a href="https://github.com/orbis-geonet/research">territory-fusion research</a> running live: tribes fuse claims into amorphous territories in real time. <a href="https://orbis.social/r/research/">Play with it at orbis.social/r/research</a>.</em></p>
 
 ---
 
