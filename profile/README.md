@@ -35,6 +35,17 @@ graph TD
 
 <p align="center"><em>Independent, branded clones federate through one shared map protocol — syncing territory to one another to form the GeoNet.</em></p>
 
+**Accessible, and priced at the network minimum.** Spinning up a clone needs no permission: fork the stack below, rebrand it, deploy it, and register your clone on-chain — a one-time **50 ORBIS** — to join the federation. Orbis settles on **Solana**, so every action pays the network's absolute minimum: a base fee of **~0.000005 SOL** per transaction. On top of that, the [live protocol](https://orbis.social/network) charges a flat **0.0001 [ORBIS](https://orbis.social/exchange) per write** (and per MB of media) — the same price for a hobby clone and a global one, with **no tiers**.
+
+| Users on your clone | Writes / month (~50 each) | Protocol fee / month | Per user |
+|---|---|---|---|
+| 1,000 | ~50K | 5 ORBIS | 0.005 ORBIS |
+| 10,000 | ~500K | 50 ORBIS | 0.005 ORBIS |
+| 100,000 | ~5M | 500 ORBIS | 0.005 ORBIS |
+| 1,000,000 | ~50M | 5,000 ORBIS | 0.005 ORBIS |
+
+<p align="center"><em>Live fees from the <a href="https://orbis.social/network">network dashboard</a> — a flat 0.0001 ORBIS per write at any scale, so the per-user cost stays 0.005 ORBIS/month from a thousand users to a million, on top of Solana's minimal network gas. Cost is never a barrier to running a clone.</em></p>
+
 ---
 
 |  | Website | iPhone App | Android App |
