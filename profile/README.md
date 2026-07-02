@@ -11,17 +11,20 @@ Orbis is an incipient prototype for the territorialization of a network society 
 The [territory-fusion research](https://github.com/orbis-geonet/research) is what makes this concrete. Each community stakes claims to real-world places, and thousands of claims are fused in real time into organic tribal polygons — tangent bridges connect nearby claims, collisions between rival groups reject a merge, and the hole-preserving union keeps interior gaps intact. A territory is addressed by the claims it contains, and fusion and split are first-class idempotent operations. These are the cartographic primitives of a *geographical* internet: where the internet addresses information by IP, a GeoNet addresses **ground by claim** — a community draws, holds, and federates territory directly on the map, with no central cadastre. In the [orbis-geonet protocol](https://orbis.social/network), those territories become permissionlessly federable: proofs and geo-tagged pointers live in ZK-compressed Merkle trees on Solana, discovery is by location-prefix, and independent clones sync ground-to-ground in a [native token](https://orbis.social/exchange) — the geographical layer of the internet, run by its inhabitants.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-1.png" height="250" alt="Tribe territories live on the map" />
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-2.png" height="250" alt="Nearby tribes and their claimed regions" />
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-3.png" height="250" alt="A single tribe's claimed territory" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-1.png" height="340" alt="Tribe territories live on the map" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-2.png" height="340" alt="Nearby tribes and their claimed regions" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-3.png" height="340" alt="A single tribe's claimed territory" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-connect.png" height="200" alt="Research: nearby claims connected by tangent bridges" />
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-polygons.png" height="200" alt="Research: claims fused into amorphous polygons" />
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-territories.png" height="200" alt="Research: tribal territories with computed centers" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-connect.png" height="175" alt="Research: nearby claims connected by tangent bridges" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-collision.png" height="175" alt="Research: a collision between rival tribes rejects a merge" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-polygons.png" height="175" alt="Research: claims fused into amorphous polygons" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-territories.png" height="175" alt="Research: tribal territories with computed centers" />
 </p>
 
-<p align="center"><em>Top — tribal territories live on the map in the app. Bottom — the same shapes from the <a href="https://github.com/orbis-geonet/research">territory-fusion research</a>: claims connect, fuse into amorphous polygons, and gain a center. Each colored region is a tribe's claimed ground.</em></p>
+<p align="center"><em>Top — tribal territories live on the map in the Orbis app. Bottom — the <a href="https://github.com/orbis-geonet/research">territory-fusion research</a> behind them: nearby claims connect by tangent bridges, a collision between rival tribes rejects a merge, the union fuses them into amorphous polygons, and each territory gains a computed center.</em></p>
 
 ---
 
