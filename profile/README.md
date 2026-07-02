@@ -11,14 +11,17 @@ Orbis is an incipient prototype for the territorialization of a network society 
 The [territory-fusion research](https://github.com/orbis-geonet/research) is what makes this concrete. Each community stakes claims to real-world places, and thousands of claims are fused in real time into organic tribal polygons — tangent bridges connect nearby claims, collisions between rival groups reject a merge, and the hole-preserving union keeps interior gaps intact. A territory is addressed by the claims it contains, and fusion and split are first-class idempotent operations. These are the cartographic primitives of a *geographical* internet: where the internet addresses information by IP, a GeoNet addresses **ground by claim** — a community draws, holds, and federates territory directly on the map, with no central cadastre. In the [orbis-geonet protocol](https://orbis.social/network), those territories become permissionlessly federable: proofs and geo-tagged pointers live in ZK-compressed Merkle trees on Solana, discovery is by location-prefix, and independent clones sync ground-to-ground in a [native token](https://orbis.social/exchange) — the geographical layer of the internet, run by its inhabitants.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-territories.png" height="250" alt="Territory-fusion polygons computed by the research" />
-  &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-1.png" height="250" alt="Tribe territories live on the map" />
   <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-2.png" height="250" alt="Nearby tribes and their claimed regions" />
   <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-3.png" height="250" alt="A single tribe's claimed territory" />
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-connect.png" height="200" alt="Research: nearby claims connected by tangent bridges" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-polygons.png" height="200" alt="Research: claims fused into amorphous polygons" />
+  <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/research-territories.png" height="200" alt="Research: tribal territories with computed centers" />
+</p>
 
-<p align="center"><em>The territory-fusion algorithm (far left, from the <a href="https://github.com/orbis-geonet/research">research</a>) rendered live as tribal territories on the map — each colored region is a tribe's claimed ground.</em></p>
+<p align="center"><em>Top — tribal territories live on the map in the app. Bottom — the same shapes from the <a href="https://github.com/orbis-geonet/research">territory-fusion research</a>: claims connect, fuse into amorphous polygons, and gain a center. Each colored region is a tribe's claimed ground.</em></p>
 
 ---
 
@@ -63,7 +66,7 @@ Crucially, a clone **only pays for the content its own users actually open** —
 
 <p align="center"><em>Metered per the <code>claim_streaming_payment</code> contract. A clone pays only for what its own users encounter (cached, paid once); a clone operator earns $ORBIS whenever the federation pulls its content — so hosting pays for itself.</em></p>
 
-**Cache it once, then earn from it.** When a clone fetches foreign content, it can keep a local copy — and once it holds that copy it registers as a **source** for it (`register_clone` + `sync_collection_batch`), so it **never pays for the same content twice** and begins **earning $ORBIS** whenever another clone's users pull it. Every clone can serve what it holds, so the economy runs both ways: an operator **spends $ORBIS to capture content** its users want from other operators, and **receives $ORBIS** from every operator whose users fetch the content it created or cached. Replicating the whole network is optional (Mirror-full or Genesis modes) and never required to run a clone. And the $ORBIS a clone earns is liquid — it swaps to **SOL** any time on the [$ORBIS exchange](https://orbis.social/exchange).
+**Cache it once, then earn from it.** When a clone fetches foreign content it keeps a local copy and registers as an additional **source** for it (`register_clone` + `sync_collection_batch`, discoverable network-wide through its on-chain `CloneInfo`), so it **never pays for that content twice**. Every cached copy is also a **fallback**: if the operator that first hosted a piece of content goes offline, requesters pull it from any other clone that holds it — `proxyToProvider` walks the list of sources until one answers — so **nothing 404s out of existence because a single host disappeared.** The more a piece of content is viewed, the more clones mirror it and the more resilient it becomes. The economy runs both ways: a clone **spends $ORBIS to capture content** its users want, and **earns $ORBIS** whenever another operator's users pull content it created or cached. Replicating the whole network is optional (Mirror-full or Genesis modes) and never required to run a clone — and the $ORBIS earned is liquid, swapping to **SOL** any time on the [$ORBIS exchange](https://orbis.social/exchange).
 
 ---
 
