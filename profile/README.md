@@ -93,7 +93,7 @@ Crucially, a clone **only pays for the content its own users actually open** —
 | Repository | Description |
 |---|---|
 | [ios-app](https://github.com/orbis-geonet/ios-app) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
-| [android-app](https://github.com/orbis-geonet/android-app) | Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+| [android-app](https://github.com/orbis-geonet/android-app) | Native Android client (Kotlin) — the map, tribes, territory claiming, feed, stories, events, and messaging. |
 
 ## Front End — Web
 
@@ -114,5 +114,4 @@ Crucially, a clone **only pays for the content its own users actually open** —
 
 | Repository | Description |
 |---|---|
-| [email-marketing-dashboard](https://github.com/orbis-geonet/email-marketing-dashboard) | Email marketing software dashboard. |
 | [marketing](https://github.com/orbis-geonet/marketing) | Social media short-form video marketing pipeline. |
