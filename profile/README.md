@@ -20,7 +20,7 @@ The [territory-fusion research](https://github.com/orbis-geonet/research) is wha
 
 ---
 
-## Run your own Orbis
+## Become an Orbis clone node operator
 
 This organization exists to help **clone operators** create their own **branded** clone of the Orbis app and connect it to the [**orbis-geonet**](https://orbis.social/network) — the permissionless, federated network where independent clones share one map protocol and sync territory to one another. It is equally where operators and contributors improve the common project: suggest features, report and fix bugs, and refine the protocol together. [orbis.social](https://orbis.social) is the Genesis reference instance; the repositories below — iOS, Android, web, backend — are what you fork to run your own, and the *Clone* rows in the table await federated operators.
 
@@ -35,16 +35,16 @@ graph TD
 
 <p align="center"><em>Independent, branded clones federate through one shared map protocol — syncing territory to one another to form the GeoNet.</em></p>
 
-**Accessible, and priced at the network minimum.** Spinning up a clone needs no permission: fork the stack below, rebrand it, deploy it, and register your clone on-chain — a one-time **50 ORBIS** — to join the federation. Orbis settles on **Solana**, so every action pays the network's absolute minimum: a base fee of **~0.000005 SOL** per transaction. On top of that, the [live protocol](https://orbis.social/network) charges a flat **0.0001 [ORBIS](https://orbis.social/exchange) per write** (and per MB of media) — the same price for a hobby clone and a global one, with **no tiers**.
+**Accessible, and priced at the network minimum.** Spinning up a clone needs no permission: fork the stack below, rebrand it, deploy it, and register your clone on-chain — a one-time **50 ORBIS (≈ $50)** — to join the federation. Every write to the map then costs a flat **0.0001 [ORBIS](https://orbis.social/exchange)** protocol fee (**$0.0001** at 1 ORBIS = $1.00) plus the **Solana network minimum of ~0.00001 SOL** (**≈ $0.0008**) — under a tenth of a cent per action, the same price for a hobby clone and a global one, with **no tiers**.
 
-| Users on your clone | Writes / month (~50 each) | Protocol fee / month | Per user |
-|---|---|---|---|
-| 1,000 | ~50K | 5 ORBIS | 0.005 ORBIS |
-| 10,000 | ~500K | 50 ORBIS | 0.005 ORBIS |
-| 100,000 | ~5M | 500 ORBIS | 0.005 ORBIS |
-| 1,000,000 | ~50M | 5,000 ORBIS | 0.005 ORBIS |
+| Users on your clone | Protocol fee (ORBIS) | Network fee (SOL) | ≈ Total / month | Per user |
+|---|---|---|---|---|
+| 1,000 | 5 ORBIS · $5 | 0.5 SOL · ~$40 | **~$45** | ~$0.045 |
+| 10,000 | 50 ORBIS · $50 | 5 SOL · ~$401 | **~$451** | ~$0.045 |
+| 100,000 | 500 ORBIS · $500 | 50 SOL · ~$4,015 | **~$4,515** | ~$0.045 |
+| 1,000,000 | 5,000 ORBIS · $5,000 | 500 SOL · ~$40,145 | **~$45,145** | ~$0.045 |
 
-<p align="center"><em>Live fees from the <a href="https://orbis.social/network">network dashboard</a> — a flat 0.0001 ORBIS per write at any scale, so the per-user cost stays 0.005 ORBIS/month from a thousand users to a million, on top of Solana's minimal network gas. Cost is never a barrier to running a clone.</em></p>
+<p align="center"><em>Assumes ~50 writes per active user / month. Live figures from the <a href="https://orbis.social/network">network dashboard</a> (0.0001 ORBIS/write + ~0.00001 SOL network gas) at 1 ORBIS = $1.00 and SOL ≈ $80. Flat pricing keeps the cost at about <strong>4.5¢ per active user per month</strong>, from a thousand users to a million — cost is never a barrier to running a clone.</em></p>
 
 ---
 
