@@ -115,7 +115,7 @@ Crucially, a clone **only pays for the content its own users actually open** —
 
 | Repository | Description |
 |---|---|
-| [backend](https://github.com/orbis-geonet/backend) | Back-end services and blockchain integration (node and Java workers). |
+| [backend](https://github.com/orbis-geonet/backend) | The federated backend stack required to run an Orbis deployment or clone node — a Java Spring Boot API and a Node.js clone-proxy over MongoDB, synchronizing clone data through the Orbis Protocol on Solana. |
 | [polygon-creator](https://github.com/orbis-geonet/polygon-creator) | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet. |
 
 ## Marketing
