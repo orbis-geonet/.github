@@ -86,7 +86,7 @@ Crucially, a clone **only pays for the content its own users actually open** —
 
 | Repository | Description |
 |---|---|
-| [research](https://github.com/orbis-geonet/research) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| [research](https://github.com/orbis-geonet/research) | The territory-fusion research — how overlapping place-claims become smooth tribal territory polygons (tripwires, tangent bridges, hole-preserving union, and pole-of-inaccessibility centers), worked example by example. |
 
 ## Front End — Mobile
 
@@ -109,6 +109,12 @@ Crucially, a clone **only pays for the content its own users actually open** —
 |---|---|
 | [backend](https://github.com/orbis-geonet/backend) | Back-end services and blockchain integration (node and Java workers). |
 | [polygon-creator](https://github.com/orbis-geonet/polygon-creator) | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet. |
+
+## Smart Contract
+
+| Repository | Description |
+|---|---|
+| [smart-contract](https://github.com/orbis-geonet/smart-contract) | The Orbis Protocol — the Solana / Anchor program behind the orbis-geonet: state-compressed map writes, the clone registry and reputation system, and metered $ORBIS clone-to-clone payments. Includes a detailed breakdown of every instruction, account, and fee. |
 
 ## Marketing
 
