@@ -106,7 +106,7 @@ The economy runs both ways: a clone **spends $ORBIS to capture content** its use
 
 | Repository | Description |
 |---|---|
-| [website](https://github.com/orbis-geonet/website) | Quis autem vel eum iure reprehenderit qui in ea voluptate velit. |
+| [website](https://github.com/orbis-geonet/website) | Official Next.js web client behind [orbis.social](https://orbis.social) — the live territory map, tribe / place / user pages, social feed, network dashboard, and the $ORBIS exchange. |
 | [user-management-dashboard](https://github.com/orbis-geonet/user-management-dashboard) | User management dashboard. |
 | [dynamic-site-map](https://github.com/orbis-geonet/dynamic-site-map) | Orbis dynamic site map. |
 
