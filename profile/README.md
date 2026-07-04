@@ -108,7 +108,7 @@ The economy runs both ways: a clone **spends $ORBIS to capture content** its use
 |---|---|
 | [website](https://github.com/orbis-geonet/website) | Official Next.js web client behind [orbis.social](https://orbis.social) — the live territory map, tribe / place / user pages, social feed, network dashboard, and the $ORBIS exchange. |
 | [user-management-dashboard](https://github.com/orbis-geonet/user-management-dashboard) | Admin dashboard for operating your clone — manage users, tribes, places and posts, moderate flagged content, track growth statistics, and run email campaigns. Spring Boot + MongoDB REST API with a [react-admin](https://marmelab.com/react-admin/) SPA. |
-| [dynamic-site-map](https://github.com/orbis-geonet/dynamic-site-map) | Orbis dynamic site map. |
+| [dynamic-site-map](https://github.com/orbis-geonet/dynamic-site-map) | The SEO sitemap generator of an Orbis deployment — a Spring Boot worker that walks the tribes, places, posts, and users in MongoDB and publishes paginated XML sitemaps to cloud storage on a schedule, keeping the whole map indexable by search engines. |
 
 ## Back End
 
