@@ -115,7 +115,7 @@ The economy runs both ways: a clone **spends $ORBIS to capture content** its use
 | Repository | Description |
 |---|---|
 | [backend](https://github.com/orbis-geonet/backend) | The federated backend stack required to run an Orbis deployment or clone node — a Java Spring Boot API and a Node.js clone-proxy over MongoDB, synchronizing clone data through the Orbis Protocol on Solana. |
-| [polygon-creator](https://github.com/orbis-geonet/polygon-creator) | Neque porro quisquam est qui dolorem ipsum quia dolor sit amet. |
+| [polygon-creator](https://github.com/orbis-geonet/polygon-creator) | The territory-fusion engine of an Orbis deployment — a Java Spring Boot background worker that sweeps the map on a hexagonal scheduler grid, fusing same-tribe place-claims into organic territory polygons over MongoDB for the backend to serve. |
 
 ## Marketing
 
