@@ -78,7 +78,7 @@ The server side of a clone is three services around one database. Clone [backend
 
 The clone-proxy is what plugs you into the federation: put your **Solana wallet** in its `.env`, start it on the same network as the README explains, and it registers your clone on-chain, indexes protocol events, and syncs your map data with the GeoNet. From there, rebrand the [web](https://github.com/orbis-geonet/website), [iOS](https://github.com/orbis-geonet/ios-app) and [Android](https://github.com/orbis-geonet/android-app) clients on top — the repositories below are everything you fork.
 
-## List of clone node operators
+### List of clone node operators
 
 | | Name | Provenance | Website | iPhone App | Android App | Contact |
 |---|---|---|---|---|---|---|
