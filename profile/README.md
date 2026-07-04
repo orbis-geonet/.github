@@ -83,7 +83,9 @@ The economy runs both ways: a clone **spends $ORBIS to capture content** its use
 
 ---
 
-**Ready to start?** The server side of a clone is three services around one database. Clone [backend](https://github.com/orbis-geonet/backend) — it ships the Java REST API (`orbis-api`) and the Node clone-proxy worker — and [polygon-creator](https://github.com/orbis-geonet/polygon-creator), the territory-fusion worker. Create a Docker network, bring up the dockerized MongoDB **replica set** inside it, then follow each README to start the Java API and the polygon-creator as containers on that same network, pointed at that same database.
+## Deploying your clone
+
+The server side of a clone is three services around one database. Clone [backend](https://github.com/orbis-geonet/backend) — it ships the Java REST API (`orbis-api`) and the Node clone-proxy worker — and [polygon-creator](https://github.com/orbis-geonet/polygon-creator), the territory-fusion worker. Create a Docker network, bring up the dockerized MongoDB **replica set** inside it, then follow each README to start the Java API and the polygon-creator as containers on that same network, pointed at that same database.
 
 The clone-proxy is what plugs you into the federation: put your **Solana wallet** in its `.env`, start it on the same network as the README explains, and it registers your clone on-chain, indexes protocol events, and syncs your map data with the GeoNet. From there, rebrand the [web](https://github.com/orbis-geonet/website), [iOS](https://github.com/orbis-geonet/ios-app) and [Android](https://github.com/orbis-geonet/android-app) clients on top — the repositories below are everything you fork.
 
