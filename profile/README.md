@@ -107,7 +107,7 @@ The clone-proxy is what plugs you into the federation: put your **Solana wallet*
 
 | Repository | Description |
 |---|---|
-| [ios-app](https://github.com/orbis-geonet/ios-app) | Lorem ipsum dolor sit amet, consectetur adipiscing elit. |
+| [ios-app](https://github.com/orbis-geonet/ios-app) | Native iOS client (Swift) — the map, tribes, territory claiming, feed, stories, events, and messaging. |
 | [android-app](https://github.com/orbis-geonet/android-app) | Native Android client (Kotlin) — the map, tribes, territory claiming, feed, stories, events, and messaging. |
 
 ## Front End — Web
