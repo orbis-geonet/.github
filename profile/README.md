@@ -10,7 +10,7 @@ Orbis is an incipient prototype for the territorialization of a network society 
 
 The [territory-fusion research](https://github.com/orbis-geonet/research) makes this concrete. Communities stake claims to real-world places, and thousands of claims fuse in real time into organic tribal polygons — tangent bridges connect nearby claims, rival collisions reject a merge, and a hole-preserving union keeps interior gaps intact. A territory is addressed by the claims it contains; fusion and split are idempotent. Tribal territories are **forged by their members** staking claims to places around the map — and no claim is final: a tribe's hold on a place can be disputed and taken away by another tribe, so territories grow and expand, and contract wherever a newer rival claim touches them. This is *territorialization and deterritorialization* as the everyday mechanics of the geographical internet: on the GeoNet, ground is continuously claimed, contested, and redrawn by its inhabitants.
 
-These are the cartographic primitives of a *geographical* internet: where the internet addresses information by IP, a GeoNet addresses **ground by claim** — no central cadastre. In the [orbis-geonet protocol](https://orbis.social/network) those territories federate permissionlessly: proofs and geo-tagged pointers live in ZK-compressed Merkle trees on Solana, discovery is by location-prefix, and independent clones sync ground-to-ground in a [native token](https://orbis.social/exchange) — the geographical layer of the internet, run by its inhabitants.
+These are the cartographic primitives of a *geographical* internet: where the internet addresses information by IP, a GeoNet addresses **ground by claim** — no central cadastre. In the [orbis-geonet protocol](https://orbis.social/network) those territories federate permissionlessly: content hashes and manifest pointers live in state-compressed Merkle trees on Solana, discovery is by on-chain manifest events and the clone registry, and independent clones sync ground-to-ground in a [native token](https://orbis.social/exchange) — the geographical layer of the internet, run by its inhabitants.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/orbis-geonet/.github/main/profile/imgs/app-map-1.png" width="33%" alt="Tribe territories live on the map" />
@@ -31,7 +31,7 @@ This organization exists to help **clone operators** create their own **branded*
 
 ```mermaid
 graph TD
-    GN(["<b>orbis-geonet</b> — one shared map protocol<br/>Solana · ZK-compressed Merkle trees · location-prefix discovery"])
+    GN(["<b>orbis-geonet</b> — one shared map protocol<br/>Solana · state-compressed Merkle trees · discovery by on-chain manifest events"])
     G["<b>Genesis</b><br/>orbis.social"] <--> GN
     A["Clone<br/>your brand"] <--> GN
     B["Clone<br/>another brand"] <--> GN
