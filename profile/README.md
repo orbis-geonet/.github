@@ -40,16 +40,16 @@ graph TD
 
 <p align="center"><em>Independent, branded clones federate through one shared map protocol — syncing territory to one another to form the GeoNet.</em></p>
 
-**Accessible, and priced at the network minimum.** Spinning up a clone needs no permission: fork the stack below, rebrand it, deploy it, and register your clone on-chain — a one-time **50 [$ORBIS](https://orbis.social/exchange) (≈ $50)** — to join the federation. From then on, syncing is priced **per minute, not per action**: once a minute, the worker coalesces **every** queued change and commits a single constant-size manifest on-chain (`sync_index_manifest` — two 32-byte hashes, per the contract), for a flat **0.0001 $ORBIS** write fee plus the Solana network fee (~0.0000125 SOL per write) — **no matter how many user actions the manifest covers**. Ten actions or ten million, the write costs the same — and at one write per minute, the bill is capped at **~$50 / month for any clone, at any size**. No tiers — the same for a hobby clone and a global one.
+**Accessible, and priced at the network minimum.** Spinning up a clone needs no permission: fork the stack below, rebrand it, deploy it, and register your clone on-chain — a one-time **50 [$ORBIS](https://orbis.social/exchange) (≈ $50)** — to join the federation. From then on, syncing is priced **per minute, not per action**: once a minute, the worker coalesces **every** queued change and commits a single constant-size manifest on-chain (`sync_index_manifest` — two 32-byte hashes, per the contract), for a flat **0.0001 $ORBIS** write fee plus the Solana network fee (≈ 0.0000125 SOL per write) — **no matter how many user actions the manifest covers**. Ten actions or ten million, the write costs the same — and at one write per minute, the bill is capped at **≈ $50 / month for any clone, at any size**. No tiers — the same for a hobby clone and a global one.
 
 | Users on your clone | Actions / month | On-chain writes / month | Network (SOL) | Protocol fee ($ORBIS) | ≈ Total / month |
 |---|---|---|---|---|---|
-| 1,000 | ~50K | ≤ 43,200 | ~0.54 SOL · ~$46 | ~4.3 $ORBIS · ~$4.30 | **~$50** |
-| 10,000 | ~500K | ≤ 43,200 | ~0.54 SOL · ~$46 | ~4.3 $ORBIS · ~$4.30 | **~$50** |
-| 100,000 | ~5M | ≤ 43,200 | ~0.54 SOL · ~$46 | ~4.3 $ORBIS · ~$4.30 | **~$50** |
-| 1,000,000 | ~50M | ≤ 43,200 | ~0.54 SOL · ~$46 | ~4.3 $ORBIS · ~$4.30 | **~$50** |
+| 1,000 | ≈ 50K | ≤ 43,200 | ≈ 0.54 SOL · ≈ $46 | ≈ 4.3 $ORBIS · ≈ $4.30 | **≈ $50** |
+| 10,000 | ≈ 500K | ≤ 43,200 | ≈ 0.54 SOL · ≈ $46 | ≈ 4.3 $ORBIS · ≈ $4.30 | **≈ $50** |
+| 100,000 | ≈ 5M | ≤ 43,200 | ≈ 0.54 SOL · ≈ $46 | ≈ 4.3 $ORBIS · ≈ $4.30 | **≈ $50** |
+| 1,000,000 | ≈ 50M | ≤ 43,200 | ≈ 0.54 SOL · ≈ $46 | ≈ 4.3 $ORBIS · ≈ $4.30 | **≈ $50** |
 
-<p align="center"><em>Full sync, one write per minute — a write fires each minute there is anything to commit, so at most 43,200 writes / month, and that is the whole bill. A million-user clone pays the same <strong>~$50 / month</strong> as a thousand-user one; quieter clones simply pay less. Fees at 1 $ORBIS = $1.00 and SOL ≈ $85; the 0.0001 $ORBIS write fee is read live from the on-chain <a href="https://github.com/orbis-geonet/smart-contract#fees">GlobalConfig</a>. Cost is never a barrier to running a clone.</em></p>
+<p align="center"><em>Full sync, one write per minute — a write fires each minute there is anything to commit, so at most 43,200 writes / month, and that is the whole bill. A million-user clone pays the same <strong>≈ $50 / month</strong> as a thousand-user one; quieter clones simply pay less. Fees at 1 $ORBIS = $1.00 and SOL ≈ $85; the 0.0001 $ORBIS write fee is read live from the on-chain <a href="https://github.com/orbis-geonet/smart-contract#fees">GlobalConfig</a>. Cost is never a barrier to running a clone.</em></p>
 
 **Clones pay each other for data — so the network funds its own hosting.** Each clone stores its own users' posts and media and serves them to the rest of the federation on demand. When one clone's users encounter data or media hosted by another, the requesting clone pays the **clone operator** in **$ORBIS** through an on-chain **streaming escrow**: the requester locks $ORBIS naming the clone operator (`init_streaming_escrow`), and the clone operator draws payment **metered per MB actually served** (`claim_streaming_payment` — `mb = data_size / 1 MB`, `fee = mb × fee_per_mb` at **0.0001 $ORBIS/MB**, minimum 0.0001 $ORBIS), each claim signed by the requester so no one overpays. The clone operator keeps **99%**; the remaining **1% funds the protocol treasury — which pays for the continued open-source development of these repositories** (the clients, backend, and protocol every operator forks). Only clone operators with an on-chain **trust score ≥ 500** can be paid, so reliable hosting is rewarded.
 
@@ -59,10 +59,10 @@ Crucially, a clone **only pays for the content its own users actually open** —
 
 | Media pulled from a clone operator / month | Requesters pay | Operator keeps (99%) | Treasury (1%) |
 |---|---|---|---|
-| 10 GB | ~1.0 $ORBIS · ~$1 | ~$1.01 | ~$0.01 |
-| 100 GB | ~10.2 $ORBIS · ~$10 | ~$10.14 | ~$0.10 |
-| 1 TB | ~105 $ORBIS · ~$105 | ~$103.80 | ~$1.05 |
-| 10 TB | ~1,049 $ORBIS · ~$1,049 | ~$1,038 | ~$10.49 |
+| 10 GB | ≈ 1.0 $ORBIS · ≈ $1 | ≈ $1.01 | ≈ $0.01 |
+| 100 GB | ≈ 10.2 $ORBIS · ≈ $10 | ≈ $10.14 | ≈ $0.10 |
+| 1 TB | ≈ 105 $ORBIS · ≈ $105 | ≈ $103.80 | ≈ $1.05 |
+| 10 TB | ≈ 1,049 $ORBIS · ≈ $1,049 | ≈ $1,038 | ≈ $10.49 |
 
 <p align="center"><em>Metered per the <code>claim_streaming_payment</code> contract. A clone pays only for what its own users encounter (cached, paid once); a clone operator earns $ORBIS whenever the federation pulls its content — so hosting pays for itself.</em></p>
 
