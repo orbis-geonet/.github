@@ -57,14 +57,14 @@ Crucially, a clone **only pays for the content its own users actually open** —
 
 *Example — what a **clone operator** earns when other clones' users pull media it stores (0.0001 $ORBIS/MB, 1 $ORBIS = $1.00; clone operator keeps 99%):*
 
-| Media pulled from a clone operator / month | Requesters pay | Operator keeps (99%) | Treasury (1%) |
-|---|---|---|---|
-| 10 GB | ≈ 1.0 $ORBIS · ≈ $1 | ≈ $1.01 | ≈ $0.01 |
-| 100 GB | ≈ 10.2 $ORBIS · ≈ $10 | ≈ $10.14 | ≈ $0.10 |
-| 1 TB | ≈ 105 $ORBIS · ≈ $105 | ≈ $103.80 | ≈ $1.05 |
-| 10 TB | ≈ 1,049 $ORBIS · ≈ $1,049 | ≈ $1,038 | ≈ $10.49 |
+| Media pulled from a clone operator / month | Requesters pay | Operator keeps (99%) | Treasury (1%) | Network (SOL, operator) | Operator nets |
+|---|---|---|---|---|---|
+| 10 GB | ≈ 1.0 $ORBIS · ≈ $1 | ≈ $1.01 | ≈ $0.01 | ≈ 0.0013 SOL · ≈ $0.11 | **≈ $0.90** |
+| 100 GB | ≈ 10.2 $ORBIS · ≈ $10 | ≈ $10.14 | ≈ $0.10 | ≈ 0.013 SOL · ≈ $1.09 | **≈ $9.05** |
+| 1 TB | ≈ 105 $ORBIS · ≈ $105 | ≈ $103.80 | ≈ $1.05 | ≈ 0.13 SOL · ≈ $11 | **≈ $93** |
+| 10 TB | ≈ 1,049 $ORBIS · ≈ $1,049 | ≈ $1,038 | ≈ $10.49 | ≈ 1.3 SOL · ≈ $111 | **≈ $927** |
 
-<p align="center"><em>Metered per the <code>claim_streaming_payment</code> contract. A clone pays only for what its own users encounter (cached, paid once); a clone operator earns $ORBIS whenever the federation pulls its content — so hosting pays for itself.</em></p>
+<p align="center"><em>Metered per the <code>claim_streaming_payment</code> contract. Drawing a payment is itself a Solana transaction paid by the operator — ≈ 0.0000125 SOL (≈ $0.001) per claim; the table assumes media is served in ≈ 100 MB claims, at SOL ≈ $85. A clone pays only for what its own users encounter (cached, paid once); a clone operator earns $ORBIS whenever the federation pulls its content — so hosting pays for itself.</em></p>
 
 **Cache it once, then earn from it.** When a clone fetches foreign content it keeps a local copy and registers as an additional **source** for it (`register_clone` + `sync_index_manifest`, discoverable network-wide through its on-chain `CloneInfo`), so it **never pays for that content twice**. Every cached copy is also a **fallback**: if the operator that first hosted a piece of content goes offline, requesters pull it from any other clone that holds it — `proxyToProvider` walks the list of sources until one answers — so **nothing 404s out of existence because a single host disappeared.** The more a piece of content is viewed, the more clones mirror it and the more resilient it becomes.
 
